@@ -1,0 +1,138 @@
+Question-01: Difference Between Structured Data and Unstructured Data
+
+1. Structured Data
+
+   >Structured data is well-organized and stored in a fixed format, usually in tables with rows and columns. It is easy to search, store, and analyze.
+   >Examples:Student marks table
+             Bank transaction records
+             Employee database
+
+   >Types of Structured Data
+
+    Numeric data: Numbers (marks, salary, age)
+    Text/categorical data: Names, gender, department
+    Transactional data: Purchase bills, ATM withdrawals
+
+2. Unstructured Data
+
+   >Unstructured data is not organized in any fixed format. It does not fit into tables. It is harder to search and requires special tools to analyze.
+   >Examples:Photos, videos, audio
+             Emails, WhatsApp chats
+             Social media posts (Instagram, Facebook)
+
+   >Types of Unstructured Data
+
+    Text data: Emails, messages, articles
+    Image data: Photos, screenshots
+    Audio/Video data: Songs, recordings, movies
+    Social media data: Comments, posts, reels
+
+Question-02:Requirements for Student Management System
+
+ 1. Functional Requirements (What the system should do)
+   >Student Registration:Add new student details such as name, age, class, address, contact, etc.
+   >Student Profile Management:View, update, or delete student information.
+   >Attendance Management:Mark daily attendance.
+                          View attendance reports for each student.
+   >Marks & Exam Management:Enter student marks for each subject.
+                            Generate report cards.
+                            Store exam schedules.
+   >Fee Management:Record fee payments.
+                   Show pending fees.
+                   Generate fee receipts.
+   >Teacher/Staff Management:Add and manage teacher details.
+                             Assign subjects and classes.
+                             Class & Timetable Management:
+                             Create class schedules and timetable.
+                             Assign teachers to classes.
+   >Search Facility:Search students by name, roll number, class, etc.
+                    User Login & Security:
+                    Admin and teacher login.
+                    Password protection for system access.
+   >Report Generation:Attendance reports
+                      Marksheets
+                      Fee reports
+                      Student lists
+
+ 2. Non-Functional Requirements (Quality needs)
+   >Usability:Easy-to-use interface for teachers and admin.
+   >Performance:Fast loading and quick search.
+   >Security:Protect student data using passwords and encryption.
+   >Reliability:System should work without errors and save data properly.
+   >Scalability:Should support many students and classes without slowing down.
+   >Backup & Recovery:Automatic backup of student records.
+
+ 3. Hardware Requirements
+   >Computer/laptop
+   >Minimum 4GB RAM
+   >Hard disk for data storage
+   >Printer (optional for reports)
+
+ 4. Software Requirements
+   >Operating System: Windows/Linux
+   >Database: MySQL / PostgreSQL / SQLite  
+   >Frontend: HTML, Java, Python, or any chosen technology
+   >Browser (if web-based)
+
+Question-03:Basic HTML Tags
+
+  1. <html> Tag:The root tag of every HTML page.
+                It tells the browser that the content is an HTML document.
+                Example:<html> ... </html>
+  2. <head> Tag:Contains information about the webpage (not shown on screen).
+                Includes title, metadata, CSS, scripts.
+                Example:<head> ... </head>
+  3. <title> Tag:Sets the title of the webpage shown in the browser tab.
+                Example:<title>My Webpage</title>
+  4. <body> Tag:Contains everything that appears on the webpage (text, images, buttons).
+                Example:<body> ... </body>
+  5. Heading Tags <h1> to <h6>:Used to display headings.
+                              <h1> is the biggest, <h6> is the smallest.
+                              Example:<h1>Main Heading</h1>
+                                      <h2>Sub Heading</h2>
+  6. <p> Tag:Used for paragraphs of text.
+             Example:<p>This is a paragraph.</p>
+  7. <br> Tag:Line break (go to next line).
+              Self-closing tag.
+              Example:Hello<br>World
+  8. <hr> Tag:Horizontal line used for separation.
+              Example:<hr>
+  9. <a> Tag (Anchor Tag):Used for links.
+                          Example:<a href="https://google.com">Open Google</a>
+  10. <img> Tag:Used to display images.
+                Self-closing tag.
+                Example:<img src="image.jpg" width="200">
+  11. <ul> and <ol> Tags:Used for lists:
+                        <ul>: Unordered list (bullets)
+                        <ol>: Ordered list (numbers)
+                        Example:<ul>
+                                  <li>Apple</li>
+                                  <li>Mango</li>
+                                </ul>
+  12. <table> Tag:Used to create tables.
+                  Example:<table>
+                            <tr>
+                              <th>Name</th>
+                              <th>Age</th>
+                            </tr>
+                            <tr>
+                              <td>John</td>
+                              <td>20</td>
+                            </tr>
+                          </table>
+  13. <div> Tag:Used to group sections/blocks of content.
+                Example:<div>This is a section</div>
+  14. <span> Tag:Used to style or group small inline text.
+                 Example:<span>Important word</span>
+
+
+
+
+
+
+
+
+
+
+
+
